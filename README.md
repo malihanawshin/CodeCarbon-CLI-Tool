@@ -1,4 +1,3 @@
-````markdown
 # CodeCarbon CLI Tool
 
 This is a simple command-line interface (CLI) tool to estimate the **CO₂ emissions** of any Python script using the [CodeCarbon](https://mlco2.github.io/codecarbon/) library. It is ideal for developers and researchers who want to understand and reduce the environmental impact of their code.
