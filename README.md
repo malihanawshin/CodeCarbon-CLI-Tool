@@ -39,7 +39,7 @@ Make sure you have a Python script (e.g., `your_script.py`) you want to measure.
 ### Step 2: Run the CLI tool
 
 ```bash
-python codecarbon_cli.py your_script.py
+python codecarbon_cli_tool.py your_script.py
 ```
 * This will run your script and output a CSV file inside the `codecarbon_logs/` folder.
 

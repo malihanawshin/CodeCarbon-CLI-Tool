@@ -25,8 +25,8 @@ jobs:
       - name: Install and test
         run: |
           python -m pip install --upgrade pip
-          pip install -e .
-          # put your actual test/build command here
+          pip install codecarbon numpy
+          python codecarbon_cli_tool.py my_script.py
           python --version
 
       - name: Record end time
