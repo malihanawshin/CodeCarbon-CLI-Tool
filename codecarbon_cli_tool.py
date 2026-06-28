@@ -26,7 +26,7 @@ def run_script_with_tracker(script_path):
         print(f"Error running script: {e}")
     finally:
         emissions = tracker.stop()
-        print(f"Estimated CO2: {emissions:.6f} kg")
+        print(f"Estimated CO2 emissions: {emissions:.6f} kg")
         print(f"Log saved to: {log_file}")
 
 def main():
