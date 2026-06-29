@@ -27,7 +27,7 @@ def run_script_with_tracker(script_path):
     finally:
         emissions = tracker.stop()
         print(f"Estimated CO2 emissions: {emissions:.6f} kg")
-        print(f"Log saved to: {log_file}")
+        print(f"Log saved in: {log_file}")
 
 def main():
     parser = argparse.ArgumentParser(description="Run a Python script and measure its CO2 emissions with CodeCarbon.")
